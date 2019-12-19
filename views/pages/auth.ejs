@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head.ejs %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <style>
+        .panel {
+            border-radius: 0px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-top: 3rem !important;
+            margin-bottom: 3rem !important;
+            padding: 0px !important;
+        }
+        .panel-group{
+            margin: 1rem;
+        }
+        .results{
+            border: 1px #dedede solid;
+            background-color: #fafafa;
+            min-height: 50px;
+            padding: 8px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div ng-app="abc-oauth2-app">
+            <div ng-controller="authController">
+                  <h4>Send Authentication Bubble</h4>
+                <div class="panel panel-default">
+                    <div class="panel-heading" style="cursor:pointer;">
+                        <div class="panel-title">
+                            <h4>Authentication</h4>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <h4><b>Send Authentication Bubble to your customers</b></h4>
+                        <form ng-submit="sendAuth()">
+                            <input type="submit" value="Send Authentication Challenge" ng-disabled="!vm.auth.submittable" class="btn btn-outline" type="button" style="border: solid 1px #ccc">
+                        </form>
+                        <br>
+                        <p class="results" id="global-demo-results" ng-bind="vm.auth.result">Results will be printed here</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/global.angular.js"></script>
+    <script src="./js/auth-controller.js"></script>
+</body>
+</html>
