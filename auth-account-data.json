@@ -4,5 +4,17 @@
   "userInfoURL":"https://john-mccullough.auth0.com/userinfo",
   "publickey": "BEGZYymE+VqqsIE+fSFhFhJrke/ljkS/ouoi5Ju47n4tVhMjAEIcAGb0sa1+vOCe+CBAhaXy5AEhTxsghs0aQqWNhORS4mJGRV7Rk6rBV6I6vp/6+8RKUZtzHY3kUM4/6w==",
   "privatekey": "iLHGcXf1ok4fO7ruRSGKRh7BgAB+PdzB7GIjnYx663ma6uGdJrcIIj1iDfd0Iwx6"
-  }
+  },
+  {
+    "siteId":"24831960", 
+    "userInfoURL":"https://dev-90bdlzcv.auth0.com/userinfo",
+    "publickey": "BNLtE+97KcwJHs8qRa+6J4dSst+E7aByB9mBRQNwz+FKAGiH4ZyxYy6xKXPQxSksiBxjvMqdCz17KBb0rN1CCoVWaKLUQyPYogKR7NfvrgHUwTYvSHCC93cuzIofd3Xu4A==",
+    "privatekey": "HjoAZlxLk0O2UgmC8bOvxA6Fq4+r+2ekO8dfj+iTwtMmV6jMQeAjF50BSFnZSAyF"
+    },
+    {
+      "siteId":"8917914", 
+      "userInfoURL":"https://dev-90bdlzcv.auth0.com/userinfo",
+      "publickey": "BJVDhvEs9quoNdtKkzTpn52AVxmpnftilx1VYbH3VyJ5vbuXmY2xCvRXjfTV2O/FDERnkeM/b8KJFRmHdtriIGQJMWR3TefY2sdRvbwKl3x6XfsNeal4zOIfsmzS5BcNSw==",
+      "privatekey": "cbhcOmBkvAeuU27EcAh7G560A8NB9T8JY+6fMZ8cuS5ibyl/aUCRUQr1o8jqMFe9"
+      }
 ]
