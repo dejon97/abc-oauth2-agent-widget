@@ -1,7 +1,7 @@
 {
-  "name": "messagingagentmultiwidget",
+  "name": "ABC OAuth2 Agent Widget",
   "version": "0.1.0",
-  "description": "Messaging Multi Widget",
+  "description": "ABC OAuth2 Agent Widget",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
